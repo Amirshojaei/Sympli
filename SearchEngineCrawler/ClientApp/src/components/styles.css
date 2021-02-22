@@ -1,0 +1,68 @@
+﻿.main_box {
+    display: block;
+    width: 464px;
+    text-align: end;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 160px;
+}
+
+.form_row {
+    margin: 13px auto;
+    width: 100%;
+}
+
+.keyword_label, .url_label {
+    padding-right: 15px;
+    font-size: 20px;
+    color: #000;
+}
+
+.url_label {
+    padding-left: 41px;
+ }
+
+.input {
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.validation_error {
+    font-size: 13px;
+    color: red;
+    margin-left: 103px;
+    line-height: 12px;
+    text-align: left;
+}
+
+.button_container {
+    text-align: left;
+    margin-left: 164px;
+    width: 400px;
+}
+
+.button {
+    padding: 5px 8px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: #375aa7;
+    color: #fff;
+}
+
+.result_pane {
+    font-size: 17px;
+    color: #094822;
+    margin: 10px 0 10px 102px;
+    text-align: left;
+    height: 90px;
+    width: 300px;
+    resize: none;
+    background-attachment: scroll;
+    border: 1px solid #07250a;
+    border-radius: 3px;
+    padding: 5px;
+}
