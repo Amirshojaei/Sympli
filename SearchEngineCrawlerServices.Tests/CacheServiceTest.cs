@@ -11,7 +11,7 @@ namespace SearchEngineCrawlerServices.Tests
     public class CacheServiceTest
     {
         [Fact]
-        public async Task SearchURLInGoogleResult_WithKeywordAndUrl_ReturnsIndexOfOcurrencesAsync()
+        public async Task Cache_Simple_Data_And_Fetch_Same_Data()
         {
             CacheService cacheService = new CacheService(new MemoryCache(new MemoryCacheOptions()));
 
